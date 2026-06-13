@@ -1,0 +1,43 @@
+{
+  "name": "snoc-logistics",
+  "version": "1.0.0",
+  "description": "Snoc Logistics and Cargo Management Application",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 9002",
+    "build": "next build",
+    "start": "next start -p 9002",
+    "lint": "next lint",
+    "genkit:dev": "genkit flow:dev"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "^15.0.0",
+    "firebase": "^10.7.0",
+    "firebase-admin": "^12.0.0",
+    "@firebase/auth": "^1.7.0",
+    "@firebase/firestore": "^1.0.0",
+    "@firebase/storage": "^1.0.0",
+    "@genkit-ai/core": "^1.0.0",
+    "@genkit-ai/google-ai": "^1.0.0",
+    "typescript": "^5.3.0",
+    "axios": "^1.6.0",
+    "zustand": "^4.4.0",
+    "tailwindcss": "^3.3.0",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "qrcode.react": "^1.0.1",
+    "react-hot-toast": "^2.4.1",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^15.0.0"
+  }
+}
